@@ -1,0 +1,478 @@
+body
+{
+    background-color:#fff;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h1 {
+    font-family:"Quicksand";
+	font-weight:normal;
+	font-size: 30px;
+	text-align: center;
+	color: #444444;
+	margin: 0;
+	padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+h2 {
+   font-family:"Quicksand";
+   font-weight: normal;
+   font-size: 40px;
+   text-align: center;
+   color: #444444;
+   margin: 0;
+   padding: 0;
+}
+
+h3 {
+   font-family: "Quicksand";
+   font-weight: normal;
+   font-size: 18px;
+   color: #444444;
+   margin: 0;
+   text-decoration: underline;
+   padding: 0px 20px 0px 20px;
+}
+
+
+p {
+    font-family:"Quicksand";
+	font-weight:normal;
+	font-size: 16px;
+	text-align: left;
+	color: #444444;
+	margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer { background-color: #e7e3df; color: #444444; font-family:"Quicksand";  font-size: 14px; padding-top: 50px; padding-bottom: 50px; text-align: center; text-decoration:none; }
+
+footer a {color: #444444; text-decoration: none;}
+
+/*
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px; }
+.clear { clear: both; }*/
+
+#header {
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #444444;
+
+	height: 80px;
+	position: fixed;
+	margin-top: 0px;
+}
+
+#nav { background-color:#fff; width: 550px; float: right; }
+#logo a { color: #1F595B; text-decoration: none; float: left; padding-left: 21px; font-size: 40px; margin-top: 20px; font-family:"Quicksand"; z-index: 1;}
+#nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;
+}
+
+/*Vanliga navigationen*/
+
+#nav li{
+	margin-top: 40px;
+	float: left;
+	padding-left: 21px;
+}
+
+#nav li a { color: #444444; opacity:0.6; font-size: 20px; text-decoration: none; font-family: 'Quicksand'; }
+#nav li a.active { color: #444444; opacity:1; border-bottom: 2px solid #444444; }
+#nav li a:hover { color: #A0CFD3; opacity:1;  }
+
+
+/*Språk navigationen*/
+
+#nav .lang li{
+	margin-top: 44px;
+	float: right;
+    padding-left: 5px;
+	padding-right: 5px;
+}
+
+#nav .lang li a { color: #444444; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Quicksand'; }
+#nav .lang .chosen a { color: #444444; opacity:1;}
+#nav .lang li a:hover { color: #A0CFD3; opacity:1;  }
+
+
+
+
+#slide1{
+    width: 100%;
+    background:url('rantalinna11.jpg') 50% 0 no-repeat fixed;
+    color: #444444;
+    height: 600px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+}
+
+#slide2{
+    width: 80%;
+    background-color: #fff;
+    color: #333333;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+#slide2 img{
+    height: auto;
+    width: 100%;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 10px;
+
+}
+
+#slide2 p {
+
+    padding: 5px 20px 5px 20px;
+
+
+}
+
+.column-left{ float: left; width: 33%; padding-bottom: 80px;}
+.column-right{ float: right; width: 33%; padding-bottom: 80px; }
+.column-center{ display: inline-block; width: 33%; padding-bottom: 80px;}
+
+#cheesyquote {
+	background-color: #A0CFD3;
+	color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+#cheesyquote p{
+        text-align: center;
+        font-style: italic;
+}
+
+#slide3{
+	background-color: #fff;
+	color: #444444;
+    width:80%;
+	height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+	padding-top: 10px;
+	font-family: "Quicksand";
+
+}
+
+    /*----- Tab Links -----*/
+    /* Clearfix */    
+     
+
+#slide3 .tab-links::after {
+    display:block;
+    clear:both;
+    content:'';
+
+
+}
+
+
+ 
+#slide3 .tab-links li {
+    float:left;
+    width: 25%;
+    list-style:none;
+    border-bottom: 1px solid #9ccacb;
+
+}
+
+
+#slide3 .tab-links li:hover {
+    background:#9ccacb;
+        }
+
+#slide3 .tab-links li.currenttab {
+    border-left: 1px solid #9ccacb;
+    border-top:  1px solid #9ccacb;
+    border-right: 1px solid #9ccacb;
+    border-bottom: none;
+}
+
+ 
+ #slide3 .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            font-size:16px;
+            font-weight:600;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+            text-decoration:none;
+        }
+
+#slide3 .sida{
+
+    width: auto;
+}
+ 
+    /*----- Content of Tabs -----*/
+     #slide3 .tab-content {
+        padding:15px;
+        border-radius:3px;
+
+        background:#fff;
+    }
+ 
+        #slide3  .tab {
+            display:none;
+        }
+ 
+         #slide3 .tab.current {
+            display:block;
+        }
+
+
+/* The products */
+
+#slide3 ul
+{
+    list-style: none;
+    font-size: 0px;
+
+}
+
+#slide3 ul li {
+    width:33%;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 0 0 0;
+    background: #fff;
+    /*border: 1px solid #ddd;*/
+    font-size: 12px;
+    font-size: 1rem;
+    vertical-align: top;
+    /*box-shadow: 0 0 5px #ddd;*/
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+#slide3 ul li img {
+    display: block;
+    height: 150px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#slide3 ul li h3 {
+    text-align: center;
+}
+#slide3 ul li p {
+    padding-top:10px; 
+    font-size: 0.8em;
+    line-height: 1.0em;
+    color: #999;
+}
+/* class for 2 columns */
+ul.rig.columns-2 li {
+    width: 23.7%; /* this value + 2.5 should = 50% */
+}
+/* class for 3 columns */
+ul.rig.columns-3 li {
+    width: 14.42%; /* this value + 2.5 should = 33% */
+}
+/* class for 4 columns */
+ul.rig.columns-4 li {
+    width: 11%; /* this value + 2.5 should = 25% */
+}
+ 
+
+
+#slide4{
+    width: 100%;
+	background-color: #fff;
+	color: #333333;
+	height: auto;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#slide4 img{
+    height: auto;
+    width: 100%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+
+}
+
+#slide4 p {
+
+    padding: 5px 20px 5px 20px;
+
+
+}
+
+/*  SECTIONS  */
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float:left;
+    margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF FOUR  */
+
+.span_4_of_4{
+    width:20%
+}    
+.span_3_of_4 {
+    width: 20%;
+}
+.span_2_of_4 {
+    width: 20%;
+}
+.span_1_of_4 {
+    width: 30%;
+}
+
+/*  GRID OF THREE  */
+
+.span_3_of_3{
+    width:100%
+}    
+.span_2_of_3 {
+    width: 65%;
+}
+.span_1_of_3 {
+    width: 32%;
+}
+
+
+#map{
+    width: 100%;
+    height: 300px;
+}
+
+.gm-style-iw * {
+    display: block;
+    width: 100%;
+}
+.gm-style-iw h4, .gm-style-iw p {
+    margin: 0;
+    padding: 0;
+}
+.gm-style-iw a {
+    color: #4272db;
+}  
+
+
+/*responsiv to different device screen sizes*/
+
+@media only screen and (max-width: 736px)  {
+
+h1{
+    font-size: 16px;
+}    
+
+h3 {
+    font-size: 16px;
+}
+
+
+p{
+    font-size: 16px;
+}
+    
+#logo a{
+    font-size: 24px;
+    margin-top: 30px;
+}   
+
+#nav li a {
+    font-size: 16px;
+}
+
+#nav .lang li {
+    margin-top: 40px;
+}
+
+#slide1 {
+    width: 100%;
+    height: 100%;
+    background:url('rantalinna/rantalinna11.jpg') no-repeat fixed;
+    background-size: contain;
+    color: #444444;
+    margin: auto;
+    padding: auto;
+
+}
+
+#slide3 .tab-links li {
+    border: 1px solid #9ccacb;
+}
+
+
+#slide3 .tab-links li.currenttab {
+    background:#9ccacb;
+}
+
+
+    #slide3 ul grid-nav li {
+        display: block;
+        margin: 0 0 5px;
+    }
+    #slide3 ul grid-nav li a {
+        display: block;
+    }
+    #slide3 ul {
+        margin-left: 0;
+    }
+    #slide3 ul li {
+        width: 100% !important; /* over-ride all li styles */
+        margin: 0 0 20px;
+    }
+
+    .col { margin: 1% 0 1% 0%;}
+    .span_4_of_4, .span_3_of_4, .span_2_of_4, .span_1_of_4 { width: 100%; }
+
+
+}
