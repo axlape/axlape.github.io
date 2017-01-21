@@ -49,6 +49,7 @@ p {
     padding-bottom: 40px;
 }
 
+
 footer { background-color: #e7e3df; color: #444444; font-family:"Quicksand";  font-size: 14px; padding-top: 50px; padding-bottom: 50px; text-align: center; text-decoration:none; }
 
 footer a {color: #444444; text-decoration: none;}
@@ -283,6 +284,15 @@ footer a {color: #444444; text-decoration: none;}
 }
 #slide3 ul li p {
     padding-top:10px; 
+    padding-bottom: 10px;
+    font-size: 0.8em;
+    line-height: 1.0em;
+    color: #999;
+}
+
+#slide3 ul li a {
+    padding-top:10px; 
+    padding-bottom: 10px;
     font-size: 0.8em;
     line-height: 1.0em;
     color: #999;
