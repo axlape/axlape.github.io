@@ -146,7 +146,7 @@
         var mapElement = document.getElementById('map');
         var map = new google.maps.Map(mapElement, mapOptions);
         var locations = [
-['Värkstan', 'Massage', 'xxx-xxxxxxx', 'xxxx@gmail.com', 'värkstan.fi', 63.092297071865666, 21.605930226458668, 'https://mapbuildr.com/assets/img/markers/default.png']
+['Rönnqvist', 'Massage', 'xxx-xxxxxxx', 'xxxx@gmail.com', 'ronnqvistmassage.fi', 63.092297071865666, 21.605930226458668, 'https://mapbuildr.com/assets/img/markers/default.png']
         ];
         for (i = 0; i < locations.length; i++) {
 			if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
