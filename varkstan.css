@@ -39,7 +39,7 @@ h3 {
 
 
 p {
-    font-family:"Quicksand";
+    font-family:"Roboto";
 	font-weight:normal;
 	font-size: 16px;
 	text-align: left;
@@ -173,7 +173,7 @@ footer a {color: #444444; text-decoration: none;}
     margin-right: auto;
 
 	padding-top: 10px;
-	font-family: "Quicksand";
+	/*font-family: "Quicksand";*/
 
 }
 
