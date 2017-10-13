@@ -478,7 +478,8 @@ p{
 	
 	
 
-/*Vanliga navigationen*/
+
+	/*Vanliga navigationen*/
 
 #nav li{
 	margin-top: 5px;
@@ -516,6 +517,10 @@ p{
     padding: auto;
 
 }
+
+.column-left{ float: left; width: 100%; padding-bottom: 10px;}
+.column-right{ float: right; width: 100%; padding-bottom: 10px; }
+.column-center{ display: inline-block; width: 100%; padding-bottom: 10px;}
 
 #slide4 .tab-links li {
     border: 1px solid #9ccacb;
