@@ -17,8 +17,7 @@ h1 {
     padding-bottom: 40px;
 }
 
-h2 {
-   font-family:"Quicksand";
+h2 {   font-family:"Quicksand";
    font-weight: normal;
    font-size: 40px;
    text-align: center;
@@ -70,7 +69,7 @@ footer a {color: #444444; text-decoration: none;}
 	background-color: #fff;
 	border-bottom: 1px solid #444444;
 
-	height: 80px;
+	height: auto;
 	position: fixed;
 	margin-top: 0px;
 }
@@ -428,7 +427,7 @@ e
 	width: 65%;
 }
 .span_1_of_3 {
-    width: 32%;
+    width: 32%
 }
 
 
@@ -439,8 +438,7 @@ e
 }
 
 
-.gm-style-iw * {
-    display: block;
+.gm-style-iw * {    display: block;
     width: 100%;
 }
 .gm-style-iw h4, .gm-style-iw p {
@@ -450,8 +448,6 @@ e
 .gm-style-iw a {
     color: #4272db;
 }  
-
-
 /*responsiv to different device screen sizes*/
 @media only screen and (max-width: 736px)  {
 
@@ -468,16 +464,17 @@ p{
     font-size: 16px;
 }
     
+	
 #logo a{
     font-size: 24px;
     margin-top: 5px;
 }   
 
 	#nav {
-height:auto;
+
 	margin: 0;
 	width: 100%;
-	}
+	
 	
 
 /*Vanliga navigationen*/
