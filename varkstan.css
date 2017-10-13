@@ -489,6 +489,7 @@ p{
 	padding-right: 5px;
 }
 
+
 #nav li a { color: #444444; opacity:0.6; font-size: 20px; text-decoration: none; font-family: 'Quicksand'; }
 #nav li a.active { color: #444444; opacity:1; border-bottom: 2px solid #444444; }
 #nav li a:hover { color: #A0CFD3; opacity:1;  }
@@ -497,6 +498,8 @@ p{
 	
 /*Språk navigationen*/
 
+
+	
 #nav .lang li{
 	margin-top: 5px;
 	float: right;
@@ -506,6 +509,7 @@ p{
 
 #nav .lang li a { color: #444444; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Quicksand'; }
 #nav .lang .chosen a { color: #444444; opacity:1;}
+footer .column-center{ display: inline-block; width: 20%; padding-bottom: 0px;}
 
 #nav .lang li a:hover { color: #A0CFD3; opacity:1;  }
 	
@@ -553,21 +557,12 @@ p{
     .span_4_of_4, .span_3_of_4, .span_2_of_4, .span_1_of_4 { width: 100%; }
 
 #slide5 img{
-
     height: auto;
-
     width: 100vw;
-
     float: left;
-
     padding-left: 0px;
-
-    padding-right: 0px;
-
+	padding-right: 0px;
     padding-bottom: 10px;
-
-
-
-}
-
+	}
+footer .column-center{ display: inline-block; width: 50vw; padding-bottom: 0px;}
 }
