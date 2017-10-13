@@ -68,7 +68,6 @@ footer a {color: #444444; text-decoration: none;}
 	width: 100%;
 	background-color: #fff;
 	border-bottom: 1px solid #444444;
-
 	height: auto;
 	position: fixed;
 	margin-top: 0px;
@@ -474,6 +473,8 @@ p{
 
 	margin: 0;
 	width: 100%;
+		
+	}
 	
 	
 
