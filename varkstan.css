@@ -476,14 +476,35 @@ p{
 	#nav {
 	width: 100%;
 	}
+	
 
-#nav li a {
-    font-size: 16px;
+/*Vanliga navigationen*/
+
+#nav li{
+	margin-top: 5px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
-#nav .lang li {
-    margin-top: 40px;
+#nav li a { color: #444444; opacity:0.6; font-size: 20px; text-decoration: none; font-family: 'Quicksand'; }
+#nav li a.active { color: #444444; opacity:1; border-bottom: 2px solid #444444; }
+#nav li a:hover { color: #A0CFD3; opacity:1;  }
+
+
+/*Språk navigationen*/
+
+#nav .lang li{
+	margin-top: 5px;
+	float: right;
+   	padding-left: 5px;
+	padding-right: 5px;
 }
+
+#nav .lang li a { color: #444444; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Quicksand'; }
+#nav .lang .chosen a { color: #444444; opacity:1;}
+#nav .lang li a:hover { color: #A0CFD3; opacity:1;  }
+	
 
 #slide1 {
     width: 100%;
