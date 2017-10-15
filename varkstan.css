@@ -489,11 +489,9 @@ p{
 #nav li{
 	margin-top: 5px;
 
-	float: left;
-	padding-left: 5px;
+	float: left;	padding-left: 5px;
 	padding-right: 5px;
 }
-
 
 #nav li a { color: #444444; opacity:0.6; font-size: 20px; text-decoration: none; font-family: 'Quicksand'; }
 #nav li a.active { color: #444444; opacity:1; border-bottom: 2px solid #444444; }
@@ -504,8 +502,7 @@ p{
 /*Språk navigationen*/
 
 
-	
-#nav .lang li{
+	#nav .lang li{
 	margin-top: 5px;
 	float: right;
    	padding-left: 5px;
@@ -529,8 +526,8 @@ footer .column-center{ display: inline-block; width: 20%; padding-bottom: 0px;}
     padding: auto;
 }
 
-.column-left{ float: left; width: 100%; padding-bottom: 10px;}
-.column-right{ float: right; width: 100%; padding-bottom: 10px; }
+.column-left{ float: none; width: 100%; padding-bottom: 10px;}
+.column-right{ float: none; width: 100%; padding-bottom: 10px; }
 .column-center{ display: inline-block; width: 100%; padding-bottom: 10px;}
 
 #slide4 .tab-links li {
